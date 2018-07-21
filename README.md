@@ -8,7 +8,6 @@ A YouTube-DL wrapper inside Telegram.
 ```sh
 virtualenv -p python3 VENV
 . ./VENV/bin/activate
-pip install git+git://github.com/google/chatbase-python.git
 pip install --upgrade pip
 pip install -r requirements.txt
 cp config.sample.py config.py
